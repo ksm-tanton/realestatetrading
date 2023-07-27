@@ -4,7 +4,8 @@
   "description": "A fun (and open-source) property trading board game for the Web!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "lint": "eslint src/js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ksm-tanton/realestatetrading/issues"
   },
-  "homepage": "https://github.com/ksm-tanton/realestatetrading#readme"
+  "homepage": "https://github.com/ksm-tanton/realestatetrading#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
 }
